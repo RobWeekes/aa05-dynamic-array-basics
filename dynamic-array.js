@@ -1,6 +1,6 @@
 class DynamicArray {
     constructor(defaultSize = 4) {
-        this.data = [];
+        this.data = new Array(defaultSize);
         this.capacity = defaultSize;
         this.length = 0;
         this.data.length = defaultSize;
